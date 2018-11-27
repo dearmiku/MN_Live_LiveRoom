@@ -9,10 +9,10 @@
   s.homepage = 'https://github.com/dearmiku/MN_Live'
   s.source = { :git => '', :tag => s.version.to_s }
 
-  s.source_files   = "source", "source/**/*.*"
-  s.vendored_frameworks  = "framework/IJK/IJKMediaFramework.framework"
+  s.source_files   = "source", "LivingRoom/LivingRoom/source/**/*.*"
+  s.vendored_frameworks  = "LivingRoom/LivingRoom/framework/IJK/IJKMediaFramework.framework"
 
-  s.resource  = "LivingRoom.bundle"
+  s.resource  = "LivingRoom/LivingRoom/LivingRoom.bundle"
 
   s.swift_version = '4.2' 
 
