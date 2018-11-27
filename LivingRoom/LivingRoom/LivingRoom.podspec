@@ -31,7 +31,7 @@
   s.dependency 'HandyJSON'                      #ORM框架
 
 
-  s.dependency 'AFNetworking', :git => 'https://arbitrary/location'
+  s.dependency 'Base'
 
   end
   

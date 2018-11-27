@@ -22,7 +22,7 @@ PODS:
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
-  - Base (from `../Base/Base`)
+  - Base (from `https://github.com/dearmiku/MN_Live_Base.git`)
   - HandyJSON
   - Kingfisher (~> 4.6.1)
   - Moya (~> 11.0.0)
@@ -44,11 +44,16 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Base:
-    :path: "../Base/Base"
+    :git: https://github.com/dearmiku/MN_Live_Base.git
+
+CHECKOUT OPTIONS:
+  Base:
+    :commit: 0b8a5bd64fb3b3fb2fe98827de59b7f53834a487
+    :git: https://github.com/dearmiku/MN_Live_Base.git
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  Base: 1e79c04f47bfaf27c36d8e5b24236e8cb2f6ff5b
+  Base: 96877182b011e25bc20a768bd38d8b972cfc6407
   HandyJSON: 9dfc026c7d7adc1f0f8ba8b181495f0e0763b0f4
   Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
   Moya: a725035953bc1c0eb1be505ab903984501d82440
@@ -57,6 +62,6 @@ SPEC CHECKSUMS:
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 3d9d320bfd983f4d891011b38370aca188bcf1a0
+PODFILE CHECKSUM: b5c60c28e8ca265e531b53145cd82b113ce68fa9
 
 COCOAPODS: 1.6.0.beta.2
